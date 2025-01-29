@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 const express = require('express');
 const { resolve } = require('path');
@@ -22,9 +23,6 @@ if (isAdmin) {
 } else {
   console.log("Access restricted. Admin only.");
 }
-
-const express = require('express');
-require('dotenv').config();
 
 
 
